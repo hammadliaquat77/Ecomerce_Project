@@ -7,6 +7,10 @@ import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Product from './components/Products/Product';
+import Top_pruduct from './components/Top-Product/Top_pruduct';
+import Subscribe from './components/Subscribe/Subscribe';
+import Testomonial from './components/Testmonial/Testomonial';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [orderPopup, setOrderPopup] = useState(false)
@@ -31,7 +35,11 @@ function App() {
        <Navbar handleOrdrPopup={handleOrdrPopup} />
        <Hero  handleOrdrPopup={handleOrdrPopup}/>
        <Product />
+       <Top_pruduct handleOrdrPopup={handleOrdrPopup}/>
        <Banner />
+       <Subscribe />
+       <Testomonial />
+       <Footer />
     </div>
     </>
   )
@@ -39,3 +47,33 @@ function App() {
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
